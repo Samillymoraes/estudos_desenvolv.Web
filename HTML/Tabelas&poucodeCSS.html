@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela e CSS</title>
+</head>
+<body>
+    <table>
+        <caption> Alunos </caption>
+        <thead>
+            <tr>
+                <th> João </th>
+                <th> Maria</th>
+                <th> Donald</th>
+                <th> Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> 3,0</td>
+                <td>10,0</td>
+                <td>1,0</td>
+                <td>14,00</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td> 3,0</td>
+                <td>10,0</td>
+                <td>1,0</td>
+                <td>14,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3"> Total </td>
+                <td>24,00</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        th, td{
+            padding: 10px;
+        }
+        thead tr{
+            border-bottom: solid 3px royalblue;
+        }
+        tbody tr:hover{
+            background-color: green;
+        }
+        tfoot {
+            background-color: yellow;
+            color: blue;
+            font-weight: black;
+        }
+    </style>
+</body>
+</html>

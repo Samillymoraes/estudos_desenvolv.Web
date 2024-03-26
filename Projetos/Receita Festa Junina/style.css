@@ -1,0 +1,85 @@
+.primeira {
+    background: #FEECE0;
+    width: 800px;
+height: 300px;  
+gap: 0px;
+opacity: 0px;
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+
+}
+.segunda{
+    background: #9B6647;
+    width: 800px;
+height: 300px;
+gap: 0px;
+opacity: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #feece0;
+margin-top: 0;
+}
+
+#first{
+    color: #9B6647;
+    width: Hug (1,073px)px;
+    height: Hug (293px)px;
+    top: 112px;
+    left: 155px;
+    gap: 56px;
+    opacity: 0px; 
+}
+
+#second{
+        width: Hug (608px)px;
+    height: Hug (105px)px;
+    gap: 40px;
+    opacity: 0px;
+}
+.tudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family:'Times New Roman', Times, serif;
+
+}
+#h1second{
+    font-size: 45px;
+    color: #58190a ;
+    font-weight: bold;
+    height: 50px;
+    margin: 0;
+}
+#psecond{
+    font-size: 21px;
+    margin: 0;
+    color: #58190a;
+}
+#ppsecond{
+    font-size: 25px;
+    color: #9B6647;
+    margin: 0;
+    display: flex;
+    
+}
+.tudo button{ 
+    background-color: #ffffff00;
+    border: #ffffff00;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction:column ;
+    cursor: pointer;
+
+}
+#h1segunda{
+    margin: 0;
+}
+
+#h1h1segunda{
+    margin: 0;
+}
